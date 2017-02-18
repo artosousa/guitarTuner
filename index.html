@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Simple Guitar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script src="js/modernizr.custom.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container">
+
+<div class="row">
+	<div class="three u-pull-left columns">
+		<FORM name="list"> 
+			<select name="tuning" id="tuning" class="u-full-width">
+				<option >Select tuning</option>
+				<option value="standard">standard</option>
+				<option value="dropD">dropD</option>
+				<option value="halfStep">halfStep</option>
+				<option value="fullStep">fullStep</option>
+				<option value="openD">openD</option>
+				<option value="openG">openG</option>
+				<option value="openA">openA</option>
+				<option value="openC">openC</option>
+				<option value="openE">openE</option>
+				<option value="openF">openF</option>
+				<option value="DADGAD">DADGAD</option>
+			</select>
+		</FORM>
+	</div>
+	<div class="u-pull-right nine columns ">
+		<div id="strings"></div>
+	</div>
+</div>
+
+</div>
+
+<script   src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
